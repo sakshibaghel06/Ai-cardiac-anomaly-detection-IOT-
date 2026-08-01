@@ -1,0 +1,80 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+training.log
+
+# ==========================
+# Model Artifacts
+# ==========================
+models/
+catboost_info/
+
+# If you want to keep the models folder but ignore only generated files,
+# comment the line above and uncomment the following:
+# models/*.joblib
+# models/*.pkl
+# models/*.csv
+
+# ==========================
+# Reports / Generated Files
+# ==========================
+reports/
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
+*.swp
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python Build
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Keep Dataset
+# ==========================
+# Uncomment below if you DON'T want to upload datasets
+# dataset/
+
+# ==========================
+# Keep notebooks
+# ==========================
+# (No ignore rule, notebooks will be tracked)
